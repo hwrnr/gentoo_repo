@@ -1,0 +1,90 @@
+diff --git a/src/app.c b/src/app.c
+index 9bb0aef..dc64cd1 100644
+--- a/src/app.c
++++ b/src/app.c
+@@ -37,10 +37,8 @@
+ #include "config.h"
+ #endif
+ 
+-#ifdef STDC_HEADERS
+ #include <stdio.h>
+ #include <stdlib.h>
+-#endif
+ 
+ #ifdef HAVE_STRING_H
+ #include <string.h>
+diff --git a/src/compat.c b/src/compat.c
+index 585e8dc..6c3d574 100644
+--- a/src/compat.c
++++ b/src/compat.c
+@@ -37,10 +37,8 @@
+ #include "config.h"
+ #endif
+ 
+-#ifdef STDC_HEADERS
+ #include <stdio.h>
+ #include <stdlib.h>
+-#endif
+ 
+ #ifdef HAVE_STRING_H
+ #include <string.h>
+diff --git a/src/expr_parser.c b/src/expr_parser.c
+index 7515171..08e0522 100644
+--- a/src/expr_parser.c
++++ b/src/expr_parser.c
+@@ -37,10 +37,8 @@
+ #include "config.h"
+ #endif
+ 
+-#ifdef STDC_HEADERS
+ #include <stdio.h>
+ #include <stdlib.h>
+-#endif
+ 
+ #ifdef HAVE_ERRNO_H
+ #include <errno.h>
+diff --git a/src/pamtester.c b/src/pamtester.c
+index c1b143e..9e66f32 100644
+--- a/src/pamtester.c
++++ b/src/pamtester.c
+@@ -37,10 +37,8 @@
+ #include "config.h"
+ #endif
+ 
+-#ifdef STDC_HEADERS
+ #include <stdio.h>
+ #include <stdlib.h>
+-#endif
+ 
+ #ifdef HAVE_STRING_H
+ #include <string.h>
+diff --git a/src/parse_opts.c b/src/parse_opts.c
+index 5065a03..31fc2da 100644
+--- a/src/parse_opts.c
++++ b/src/parse_opts.c
+@@ -37,10 +37,8 @@
+ #include "config.h"
+ #endif
+ 
+-#ifdef STDC_HEADERS
+ #include <stdio.h>
+ #include <stdlib.h>
+-#endif
+ 
+ #ifdef HAVE_STRING_H
+ #include <string.h>
+diff --git a/src/util.c b/src/util.c
+index 5f8265e..eb64c8f 100644
+--- a/src/util.c
++++ b/src/util.c
+@@ -37,10 +37,8 @@
+ #include "config.h"
+ #endif
+ 
+-#ifdef STDC_HEADERS
+ #include <stdio.h>
+ #include <stdlib.h>
+-#endif
+ 
+ #ifdef HAVE_MEMORY_H
+ #include <memory.h>
